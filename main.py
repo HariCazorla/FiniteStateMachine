@@ -1,0 +1,5 @@
+from ConcreteStateMachineFactory import ConcreteStateMachineFactory
+
+concrete_state_machine_factory = ConcreteStateMachineFactory()
+state_machine = concrete_state_machine_factory.create_state_machine()
+state_machine.run()
