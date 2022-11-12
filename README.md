@@ -7,11 +7,10 @@ The repository has three states defined
 - StateC (Final State)
 
 Following transitions are defined,
-StateA -on-sucess--> StateB 
-StateA -on-failure--> StateC
-
-StateB -on-sucess--> StateC 
-StateB -on-failure--> StateC
+- StateA -on-sucess--> StateB
+- StateA -on-failure--> StateC
+- StateB -on-sucess--> StateC 
+- StateB -on-failure--> StateC
 
 We can add more states and more custom transitions among these states as well.
 
